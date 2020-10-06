@@ -1,4 +1,13 @@
 ---
 label: question
 hide_body: true
-fields: []
+fields:
+- name: q
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: q
